@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.PT1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3.125vh; /* 25px */
+    font-weight: lighter;
+    padding: 0.25vh; /* 2px */
+    margin: 0;
+    background-color: #1A1A13;
+}
+
+.PT2 {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #4d4d4d;
+    padding: 0;
+    position: relative;
+}
+
+.tittle1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 6;
+    color: rgb(255, 255, 255);
+    font-size: 6.25vh; /* 50px */
+    font-weight: bolder;
+    padding: 6.25vh; /* 50px */
+    position: relative;
+    left: 2.5%; /* 20% of 800px */
+    text-shadow: 0.25vh 0.25vh 0.625vh rgba(0, 0, 0, 0.9); /* 2px, 5px */
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.img1 {
+    grid-row: 1 / 6;
+    grid-column: 8 / 11;
+    padding: 1.25vh; /* 10px */
+    position: relative;
+}
+
+.Para1 {
+    grid-row: 2 / 2;
+    grid-column: 3 / 5;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 3vh; /* x-large approximation */
+    text-shadow: 0.25vh 0.25vh 0.625vh rgba(0, 0, 0, 0.9); /* 2px, 5px */
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    padding: 0.25vh; /* 2px */
+}
+
+.PersonalTrButton {
+    background-color: #7f807f;
+    color: rgb(144, 142, 142);
+    border: none;
+    padding: 1.875vh 4vh; /* 15px 32px */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh; /* 16px */
+    cursor: pointer;
+    border-radius: 0.5vh; /* 4px */
+    position: relative;
+    left: 8.75%; /* 70% of 800px */
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: none;
+}
+
+.PT4 {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #4d4d4d;
+    padding: 0;
+    position: relative;
+}
+
+.tittle3 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 6;
+    color: rgb(255, 255, 255);
+    font-size: 6.25vh; /* 50px */
+    font-weight: bolder;
+    padding: 6.25vh; /* 50px */
+    position: relative;
+    left: 2.5%; /* 20% of 800px */
+    text-shadow: 0.25vh 0.25vh 0.625vh rgba(0, 0, 0, 0.9); /* 2px, 5px */
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.img3 {
+    grid-row: 1 / 6;
+    grid-column: 8 / 11;
+    padding: 1.25vh; /* 10px */
+    position: relative;
+}
+
+.Para3 {
+    grid-row: 2 / 2;
+    grid-column: 3 / 5;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 3vh; /* x-large approximation */
+    text-shadow: 0.25vh 0.25vh 0.625vh rgba(0, 0, 0, 0.9); /* 2px, 5px */
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    padding: 0.25vh; /* 2px */
+}
+
+.VRTrButton {
+    background-color: #7f807f;
+    color: rgb(144, 142, 142);
+    border: none;
+    padding: 1.875vh 4vh; /* 15px 32px */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh; /* 16px */
+    cursor: pointer;
+    border-radius: 0.5vh; /* 4px */
+    position: relative;
+    left: 8.75%; /* 70% of 800px */
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: none;
+}
+
+.PT3 {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #c5c5c5;
+    padding: 0;
+    position: relative;
+}
+
+.tittle2 {
+    grid-row: 1 / 1;
+    grid-column: 5 / 11;
+    color: rgb(0, 0, 0);
+    font-size: 6.25vh; /* 50px */
+    font-weight: bolder;
+    padding: 5vh; /* 40px */
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.img2 {
+    grid-row: 1 / 5;
+    grid-column: 1 / 4;
+    padding: 1.25vh; /* 10px */
+    position: relative;
+}
+
+.Para2 {
+    grid-row: 2 / 2;
+    grid-column: 7 / 8;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 3vh; /* x-large approximation */
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-align: left;
+    left: 3.75%; /* 30% of 800px */
+}
+
+.GroupTrButton {
+    background-color: #7f807f;
+    color: rgb(144, 142, 142);
+    border: none;
+    padding: 1.875vh 4vh; /* 15px 32px */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh; /* 16px */
+    cursor: pointer;
+    border-radius: 0.5vh; /* 4px */
+    position: relative;
+    left: 8.75%; /* 70% of 800px */
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: none;
+}
+.PT5 {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #c5c5c5;
+    padding: 0;
+    position: relative;
+}
+
+.tittle4 {
+    grid-row: 1 / 1;
+    grid-column: 5 / 11;
+    color: rgb(0, 0, 0);
+    font-size: 6.25vh; /* 50px */
+    font-weight: bolder;
+    padding: 5vh; /* 40px */
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;}
+
+.img4 {
+    grid-row: 1 / 5;
+    grid-column: 1 / 4;
+    padding: 1.25vh; /* 10px */
+    position: relative;
+}
+
+.Para4 {
+    grid-row: 2 / 2;
+    grid-column: 7 / 8;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 3vh; /* x-large approximation */
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-align: left;
+    left: 3.75%; /* 30% of 800px */}
+
+.NTButton {
+    background-color: #7f807f;
+    color: rgb(144, 142, 142);
+    border: none;
+    padding: 1.875vh 4vh; /* 15px 32px */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh; /* 16px */
+    cursor: pointer;
+    border-radius: 0.5vh; /* 4px */
+    position: relative;
+    left: 8.75%; /* 70% of 800px */
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: none; 
+}
+
+
+.tittle5 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3.125vh; /* 25px */
+    font-weight: lighter;
+    padding: 0.25vh; /* 2px */
+    margin: 0;
+    background-color: #7c7c7c;
+    text-shadow: 0.25vh 0.25vh 0.625vh rgba(0, 0, 0, 0.9); /* 2px 2px 5px */
+}
+
+.Programs {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #343434;
+    align-items: center;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.Program1 {
+    background-color: #333;
+    color: #fff;
+    width: auto;
+}
+
+.Program2 {
+    background-color: #333;
+    color: #fff;
+    width: auto;
+}
+
+.Program3 {
+    background-color: #333;
+    color: #fff;
+    width: auto;
+}
+
+.Program1 p {
+    margin-left: 1.75vh; /* 14px */
+    text-align: center;
+    font-size: 1.75vh; /* 14px */
+    line-height: 2vh; /* Approximated */
+}
+
+.Program2 p {
+    margin-left: 1.75vh; /* 14px */
+    text-align: center;
+    font-size: 1.75vh; /* 14px */
+    line-height: 2vh; /* Approximated */
+}
+
+.Program3 p {
+    margin-left: 1.75vh; /* 14px */
+    text-align: center;
+    font-size: 1.75vh; /* 14px */
+    line-height: 2vh; /* Approximated */
+    border-radius: 0.5vh; /* 4px */
+}
+
+@media (max-width: 100%) {
+                .PT1 {
+                  font-size: 100%;
+                }
+              
+                .pt2{
+                  width: auto;
+                }
+                .tittle1{
+                    width: auto;
+                }
+                .img1{
+                    width: auto;
+                    
+                }
+                .Para1{
+                    width: auto;
+                }
+                .PersonalTrButton{
+                    width: auto;
+                }
+}
+              
+ @media (max-width: 100%) {
+                .PT3 {
+                  font-size: auto;
+                }
+              
+                .tittle2 {
+                  width: 100%;
+                }
+                .img2{
+                    width: auto;
+                }
+                .Para2{
+                    width: auto;
+                }
+                .GroupTrButton {
+                    width: auto;
+                }
+                
+                
+}
+              
+@media (max-width: 100%) {
+                .PT4 {
+                  font-size: auto;
+                }
+              
+                .tittle3 {
+                    width: 100%;
+                  }
+                  .img3{
+                      width: auto;
+                  }
+                  .Para3{
+                      width: auto;
+                  }
+                  .VRTrButton {
+                      width: auto;
+                  }
+                  
+}
+@media (max-width: 100%) {
+                .PT5 {
+                  font-size: auto;
+                }
+              
+                .tittle4 {
+                    width: 100%;
+                  }
+                  .img4{
+                      width: auto;
+                  }
+                  .Para4{
+                      width: auto;
+                  }
+                  .NTButton {
+                      width: auto;
+                  }
+                  
+}
+              
+@media (max-width: 100%) {
+                .PT6 {
+                  font-size: auto;
+                }
+              
+                .tittle5 {
+                    width: auto;
+                  }
+                  .Programs{
+                      width: auto;
+                  }
+                  .Program1{
+                    width: auto;
+                }
+                .Program2{
+                    width: auto;
+                }
+                .Program3{
+                    width: auto;
+                }
+                
+                  
+}
